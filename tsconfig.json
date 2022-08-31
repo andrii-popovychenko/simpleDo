@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "outDir": "./build",
+        "rootDir": "./src",
+        "moduleResolution": "node",
+        "jsx": "react-jsx",
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "noEmitOnError": true,
+        "sourceMap": true
+    },
+    "include": ["./src"],
+}
